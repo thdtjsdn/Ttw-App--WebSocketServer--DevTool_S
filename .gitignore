@@ -1,3 +1,10 @@
+managed_node_modules/***
+
+.ssl/cha.pem
+.ssl/crt.pem
+.ssl/key.pem
+.ssl/ssl.pfx
+
 # Logs
 logs
 *.log
