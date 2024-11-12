@@ -1,10 +1,11 @@
-# Ttw-App--WebSocketServer--DevTool
+# Ttw-App--WebSocketServer--DevTool_S
 
 ---
 
 # 문의 사항
 
 - thdtjsdn@gmail.com
+- 'HTTPS' Repository는 [Ttw-App--WebSocketServer--DevTool_S](https://github.com/thdtjsdn/Ttw-App--WebSocketServer--DevTool_S) 입니다.
 
 ---
 
@@ -14,7 +15,7 @@
 - 본서버는 Protocol Level에서 정의된 기능외 확장기능이 없기 때문에 보안에 안전합니다.
 
 - Windows, Linux, Mac 지원
-- Linux, Mac은 바이너리 권한 추가 sudo chmod 755 ./Ttw-App--WebSocketServer--DevTool 또는 Mac
+- Linux, Mac은 바이너리 권한 추가 sudo chmod 755 ./TtwAppWebSocketServerDevToolS 또는 Mac
 
 - IP 차단 기능
 - UserAgent 차단기능
@@ -25,9 +26,7 @@
 - 서버의 대상 폴더를 지정 후
 	- .main.js 에서 ConfigServerHttps.ABSOLUTE_PATH_APPLICATION_WEB = '.web/';
 	- http://localhost:48500/index.html 등 해당 파일에 접속후 소스를 수정 저장하면 바로 화면이 갱신됩니다.
-	- 또는 작업할 html 파일에 </html><script src="http://thdtjsdn.com:49310/dev_ws"></script> 형태로 삽입해주면 file:///D:/PROJECT/.web/index.html 상황의 화면 페이지도 파일 수정시 자동 갱신합니다.
-
-- 'HTTPS' Repository는 [Ttw-App--WebSocketServer--DevTool_S](https://github.com/thdtjsdn/Ttw-App--WebSocketServer--DevTool_S) 입니다.
+	- 또는 작업 html 파일에 `</html><script src="http://thdtjsdn.com:49310/dev_ws"></script>` 코드 삽입시 (file:///D:/PROJECT/.web/index.html) 화면 페이지도 파일 수정시 자동 갱신합니다.
 
 ---
 
@@ -40,6 +39,8 @@
 # .main.js 가 메인 소스 시작파일입니다.
 
 - 추후 .config.json 설정으로 변경 할수도 있습니다만, 굳이..?
+
+- 사용 예시 소스 코드가 존재합니다.
 
 ---
 
