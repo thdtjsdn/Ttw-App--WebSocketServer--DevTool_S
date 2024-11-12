@@ -50,6 +50,12 @@
 
 ---
 
+# GUI 기반의 Debugger Tool이 존재합니다.
+
+- Private Repository 입니다.
+
+---
+
 # API 목록(필요할 법한 목록만)
 
 - UtilLogger.debug = function(o, g){}
