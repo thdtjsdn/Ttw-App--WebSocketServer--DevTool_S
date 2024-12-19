@@ -9,7 +9,7 @@
 
 ---
 
-# HTTP Server 입니다.
+# HTTPS Server & WSS Server 입니다.
 
 - 보안 탁월 가볍고 성능 좋은 HTTP 서버입니다.
 - 본서버는 Protocol Level에서 정의된 기능외 확장기능이 없기 때문에 보안에 안전합니다.
